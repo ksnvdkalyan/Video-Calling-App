@@ -15,13 +15,4 @@ The app has additional features like adding new meetings and get notified at the
 
 These are some images of the app.
 
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/splashScreen.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro1.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro2.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro3.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/login.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/register.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Home.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Meetings.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Locations.jpeg" width="200" height="400" />
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/info.jpeg" width="200" height="400" />
+<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/splashScreen.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro1.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro2.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro3.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/login.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/register.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Home.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Meetings.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Locations.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/info.jpeg" width="200" height="400" />
