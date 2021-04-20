@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=4F:ED:05:4C:6E:B2:B2:23:63:B0:16:7A:0B:63:7A:7A:33:6F:64:11%3Bcom.example.videomeet.activities
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.videomeet.activities
+
+    SHA-1 certificate fingerprint:
+    4F:ED:05:4C:6E:B2:B2:23:63:B0:16:7A:0B:63:7A:7A:33:6F:64:11
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBINpYx7lilPTuPbad7ez36v49NRqUEUEU</string>
+</resources>

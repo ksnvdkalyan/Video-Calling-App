@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:paddingStart="@dimen/_8sdp"
+    android:paddingTop="8dp"
+    android:paddingEnd="@dimen/_8sdp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/textFirstChar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/background_user_icon"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_slab"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toTopOf="@id/viewDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageSelected"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/background_user_icon"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_accept"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/textFirstChar"
+                app:layout_constraintEnd_toEndOf="@id/textFirstChar"
+                app:layout_constraintStart_toStartOf="@id/textFirstChar"
+                app:layout_constraintTop_toTopOf="@id/textFirstChar"
+                app:tint="@color/colorTextIcons" />
+
+            <View
+                android:id="@+id/viewSupporter"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                app:layout_constraintBottom_toBottomOf="@id/textFirstChar"
+                app:layout_constraintStart_toEndOf="@id/textFirstChar"
+                app:layout_constraintTop_toTopOf="@id/textFirstChar" />
+
+            <ImageView
+                android:id="@+id/imageVideoMeeting"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/app_name"
+                android:padding="2dp"
+                android:src="@drawable/ic_video"
+                app:layout_constraintBottom_toTopOf="@id/viewDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageAudioMeeting"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/app_name"
+                android:padding="4dp"
+                android:src="@drawable/ic_audio"
+                app:layout_constraintBottom_toTopOf="@id/viewDivider"
+                app:layout_constraintEnd_toStartOf="@id/imageVideoMeeting"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/viewSupporter"
+                app:layout_constraintEnd_toStartOf="@id/imageAudioMeeting"
+                app:layout_constraintStart_toEndOf="@id/textFirstChar" />
+
+            <TextView
+                android:id="@+id/textEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/montserrat"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@id/imageAudioMeeting"
+                app:layout_constraintStart_toEndOf="@id/textFirstChar"
+                app:layout_constraintTop_toBottomOf="@id/viewSupporter"
+                tools:ignore="SmallSp" />
+
+            <View
+                android:id="@+id/viewDivider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/textFirstChar"
+                app:layout_constraintTop_toBottomOf="@id/textFirstChar" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

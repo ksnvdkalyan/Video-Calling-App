@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="@color/register_bk_color"/>
+
+    <item
+        android:id="@+id/bottom_nav_meetings"
+        android:title="@string/meetings"
+        android:icon="@drawable/ic_task"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="@color/register_bk_color"/>
+
+    <item
+        android:id="@+id/bottom_nav_map"
+        android:title="@string/locations"
+        android:icon="@drawable/ic_map"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="@color/register_bk_color"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_user"
+        app:cnb_iconColor="#fff"
+        app:cnb_backgroundColor="@color/register_bk_color"/>
+
+</menu>

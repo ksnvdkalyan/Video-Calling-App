@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileActivity"
+    android:background="#f3f3f3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_85sdp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/profileFirstChar"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:background="@drawable/background_user_icon"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/roboto_slab"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_35sdp"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/profileFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_27sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_18sdp"
+                        android:layout_marginEnd="@dimen/_18sdp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/montserrat"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_18sdp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/profileEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_17sdp"
+                        android:layout_marginStart="@dimen/_18sdp"
+                        android:layout_marginEnd="@dimen/_18sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="@dimen/_12sdp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="#E8E6E6"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_8sdp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/homePage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/home"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_18sdp"
+                app:tint="@color/black"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/home"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_right"
+                    app:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/meetingsPage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/ic_task"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_18sdp"
+                app:tint="@color/black"
+                android:contentDescription="@string/meetings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/meetings"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_12sdp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_right"
+                    app:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mapsPage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/ic_map"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_18sdp"
+                app:tint="@color/black"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/locations"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_15sdp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_right"
+                    app:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/infoPage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/information"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_18sdp"
+                app:tint="@color/black"
+                android:contentDescription="@string/meetings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/about"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_12sdp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_right"
+                    app:tint="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_above="@id/bottomNav"
+        android:background="@drawable/logout_background"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:text="@string/logout"
+        android:textSize="@dimen/_13sdp" />
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corners"
+        android:elevation="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        app:cnb_menuResource="@menu/bottom_nav_menu"
+        app:cnb_orientationMode="horizontal"
+        app:cnb_radius="@dimen/_8sdp"
+        app:cnb_unselectedColor="@color/black" />
+
+</RelativeLayout>

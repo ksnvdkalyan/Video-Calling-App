@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Connect</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <string name="video_meet_and_conference_app">Video Meet and Conference</string>
+    <string name="better_video_calling_experience">Better video calling experience</string>
+    <string name="log_out">Log Out</string>
+    <string name="incoming_meeting_invitation">Incoming Meeting Invitation</string>
+    <string name="sending_meeting_invitation">Sending Meeting Invitation</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_account">My account</string>
+    <string name="logout">Logout</string>
+    <string name="all_users">All Users</string>
+    <string name="no_meetings">No Meetings</string>
+    <string name="meeting_title">Meeting Title</string>
+    <string name="meeting_details">Meeting Details</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="repetition_interval">Repetition Interval</string>
+    <string name="type_of_repetition">Type of Repetition</string>
+    <string name="title">Title</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="repeat_no_and_type">Repeat No and Type</string>
+    <string name="discard_remainder">Discard Remainder</string>
+    <string name="save_remainder">Save Remainder</string>
+    <string name="meetings">Meetings</string>
+    <string name="about">About</string>
+    <string name="title_activity_new_task">NewTaskActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="add_new_meeting">Add new Meeting</string>
+    <string name="enter_meeting_name">Enter Meeting name</string>
+    <string name="enter_date">Enter date</string>
+    <string name="set_date">set date</string>
+    <string name="enter_time">Enter time</string>
+    <string name="set_time">set Time</string>
+    <string name="back">back</string>
+    <string name="create_meeting">create Meeting</string>
+    <string name="about_our_project">About Our Project</string>
+    <string name="about_text_1">Connect app has made families come together who are far apart. The app is very useful for any one who are missing their families and want to talk to them. The interface is simple and can be easily understand by the people.</string>
+    <string name="about_text_2">Connect app can connect anyone from anywhere to everywhere. It is very helpful in real life situations. Our video calling app is better than other video calling apps out there in the market.</string>
+    <string name="about_text_3">Connect app has unique features like conference calling and voice calling that helps more people connect and enjoy the meetings.</string>
+    <string name="about_text_4">Connect app has features like hand rising that helps while teaching classes to the students.</string>
+    <string name="enter_meeting_description">Enter Meeting Description</string>
+    <string name="map">Map</string>
+    <string name="title_activity_map_tracking">Map</string>
+    <string name="title_activity_maps_tracking">Map</string>
+    <string name="locations">Locations</string>
+</resources>
